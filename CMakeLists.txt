@@ -25,6 +25,7 @@ set(COMPONENT_INCLUDEDIRS   "${CRYPTOAUTHLIB_DIR}/"
                             "${CRYPTOAUTHLIB_DIR}/hal"
                             "${CRYPTOAUTHLIB_DIR}/../app/tng"
                             "port"
+                            "${COMPONENT_DIR}/cryptoauthlib/third_party/"
                             )
 
                         set(COMPONENT_PRIV_INCLUDEDIRS "port/include"
